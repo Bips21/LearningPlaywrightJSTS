@@ -19,12 +19,14 @@ A hands-on learning repository covering JavaScript fundamentals, prompt engineer
 
 | Chapter | Topics |
 | --- | --- |
-| [`00_Chapter_Prompt_Eng/Selenium_Framework/`](00_Chapter_Prompt_Eng/Selenium_Framework/) | RICEPOT prompt framework, problem statements, anti-hallucination guidance, and a generic QA template |
-| [`01_Chapter_JS_Basics/`](01_Chapter_JS_Basics/) | Hello World and basic math |
-| [`02_Chapter_JS_Keywords_Identifiers/`](02_Chapter_JS_Keywords_Identifiers/) | JavaScript engine, declarations, keywords, identifier rules, and comments |
-| [`03_Chapter_JS_Literals/`](03_Chapter_JS_Literals/) | Number, boolean, null, undefined, BigInt, and special numeric values |
-| [`04_Chapter_JS_Operators/`](04_Chapter_JS_Operators/) | Assignment, arithmetic, comparison, logical, string, ternary, and `typeof` examples, plus practice questions |
-| [`05_Chapter_JS_Increment&Decrement_Operators/`](05_Chapter_JS_Increment%26Decrement_Operators/) | Pre/post increment, decrement, nullish coalescing, and practice questions |
+| Chapter | Topics | Example |
+| --- | --- | --- |
+| [`00_Chapter_Prompt_Eng/Selenium_Framework/`](00_Chapter_Prompt_Eng/Selenium_Framework/) | RICEPOT prompt framework, problem statements, anti-hallucination guidance, and a generic QA template | [Generic QA template](00_Chapter_Prompt_Eng/Selenium_Framework/04_RICEPOT_Generic_QA_Template.md) |
+| [`01_Chapter_JS_Basics/`](01_Chapter_JS_Basics/) | Hello World and basic math | [Hello World](01_Chapter_JS_Basics/01_HelloWorld.js) |
+| [`02_Chapter_JS_Keywords_Identifiers/`](02_Chapter_JS_Keywords_Identifiers/) | JavaScript engine, declarations, keywords, identifier rules, and comments | [Identifier rules](02_Chapter_JS_Keywords_Identifiers/06_keyword_identifier_rules.js) |
+| [`03_Chapter_JS_Literals/`](03_Chapter_JS_Literals/) | Number, boolean, null, undefined, BigInt, and special numeric values | [Special numeric values](03_Chapter_JS_Literals/17_Special_Numeric_Values.js) |
+| [`04_Chapter_JS_Operators/`](04_Chapter_JS_Operators/) | Assignment, arithmetic, comparison, logical, string, ternary, and `typeof` examples, plus practice questions | [Ternary operators](04_Chapter_JS_Operators/28_Ternary_Op.js) |
+| [`05_Chapter_JS_Increment&Decrement_Operators/`](05_Chapter_JS_Increment%26Decrement_Operators/) | Pre/post increment, decrement, nullish coalescing, and practice questions | [Nullish coalescing](05_Chapter_JS_Increment%26Decrement_Operators/45_Nullish_Coalescing.js) |
 
 ## Learning Objectives
 
@@ -40,6 +42,7 @@ Install Node.js, then open a terminal at the repository root and run an individu
 ```sh
 node 01_Chapter_JS_Basics/01_HelloWorld.js
 node 04_Chapter_JS_Operators/21_Arithmetic_Op.js
+node 04_Chapter_JS_Operators/28_Ternary_Op.js
 node "05_Chapter_JS_Increment&Decrement_Operators/45_Nullish_Coalescing.js"
 ```
 
