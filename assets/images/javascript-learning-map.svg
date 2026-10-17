@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript learning map</title>
+  <desc id="desc">A roadmap from JavaScript syntax and values through conditions, loops, functions, and browser automation.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b35"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7df1e"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" rx="28" fill="url(#background)"/>
+  <circle cx="865" cy="78" r="110" fill="#2563eb" opacity=".12"/>
+  <circle cx="91" cy="474" r="140" fill="#7c3aed" opacity=".12"/>
+  <text x="64" y="76" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">A path through JavaScript</text>
+  <text x="64" y="110" fill="#a5b4fc" font-family="Segoe UI,Arial,sans-serif" font-size="16">Build the fundamentals, then put them to work in browser automation.</text>
+  <rect x="65" y="167" width="178" height="112" rx="18" fill="url(#highlight)"/>
+  <text x="154" y="209" text-anchor="middle" fill="#172033" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">01 · FOUNDATIONS</text>
+  <text x="154" y="241" text-anchor="middle" fill="#172033" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Syntax &amp; values</text>
+  <text x="154" y="263" text-anchor="middle" fill="#334155" font-family="Segoe UI,Arial,sans-serif" font-size="13">variables · types · operators</text>
+  <path d="M252 223H310" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="326" y="167" width="178" height="112" rx="18" fill="#1e3a8a" stroke="#60a5fa"/>
+  <text x="415" y="209" text-anchor="middle" fill="#93c5fd" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">02 · DECISIONS</text>
+  <text x="415" y="241" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Conditions</text>
+  <text x="415" y="263" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">if/else · switch</text>
+  <path d="M513 223H571" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="587" y="167" width="178" height="112" rx="18" fill="#312e81" stroke="#a78bfa"/>
+  <text x="676" y="209" text-anchor="middle" fill="#c4b5fd" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">03 · REPETITION</text>
+  <text x="676" y="241" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Loops</text>
+  <text x="676" y="263" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">for · while · do...while</text>
+  <path d="M773 223H831" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="847" y="167" width="53" height="112" rx="18" fill="#0f766e"/>
+  <text x="874" y="218" text-anchor="middle" fill="#99f6e4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">NEXT</text>
+  <text x="874" y="242" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">Web</text>
+  <path d="M676 292V355H571" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="326" y="371" width="270" height="92" rx="18" fill="#0f766e" stroke="#5eead4"/>
+  <text x="461" y="407" text-anchor="middle" fill="#99f6e4" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">04 · REUSABLE LOGIC</text>
+  <text x="461" y="438" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Functions → Playwright</text>
+  <text x="64" y="503" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="13">Current chapters cover JavaScript fundamentals through loops; functions and Playwright are roadmap topics.</text>
+</svg>

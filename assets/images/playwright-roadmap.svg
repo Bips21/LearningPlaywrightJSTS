@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Playwright learning roadmap</title>
+  <desc id="desc">A roadmap from JavaScript and TypeScript foundations to Playwright setup, browser interactions, assertions, fixtures, reports, and continuous integration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b35"/><stop offset="1" stop-color="#052e2b"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5eead4"/></marker>
+  </defs>
+  <rect width="960" height="500" rx="28" fill="url(#bg)"/>
+  <text x="56" y="66" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Playwright learning roadmap</text>
+  <text x="56" y="96" fill="#99f6e4" font-family="Segoe UI,Arial,sans-serif" font-size="15">A suggested next step after the JavaScript chapters.</text>
+  <path d="M132 225H813" stroke="#5eead4" stroke-width="4" marker-end="url(#arrow)"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <circle cx="142" cy="225" r="28" fill="#f7df1e"/><text x="142" y="231" fill="#172033" font-size="17" font-weight="700">1</text>
+    <text x="142" y="285" fill="#f8fafc" font-size="15" font-weight="700">Foundations</text><text x="142" y="310" fill="#cbd5e1" font-size="13">JavaScript</text><text x="142" y="330" fill="#cbd5e1" font-size="13">then TypeScript</text>
+    <circle cx="310" cy="225" r="28" fill="#0f766e" stroke="#5eead4" stroke-width="2"/><text x="310" y="231" fill="#f8fafc" font-size="17" font-weight="700">2</text>
+    <text x="310" y="285" fill="#f8fafc" font-size="15" font-weight="700">Setup</text><text x="310" y="310" fill="#cbd5e1" font-size="13">Install Playwright</text><text x="310" y="330" fill="#cbd5e1" font-size="13">and browsers</text>
+    <circle cx="478" cy="225" r="28" fill="#0f766e" stroke="#5eead4" stroke-width="2"/><text x="478" y="231" fill="#f8fafc" font-size="17" font-weight="700">3</text>
+    <text x="478" y="285" fill="#f8fafc" font-size="15" font-weight="700">Interact</text><text x="478" y="310" fill="#cbd5e1" font-size="13">Locators · actions</text><text x="478" y="330" fill="#cbd5e1" font-size="13">navigation</text>
+    <circle cx="646" cy="225" r="28" fill="#0f766e" stroke="#5eead4" stroke-width="2"/><text x="646" y="231" fill="#f8fafc" font-size="17" font-weight="700">4</text>
+    <text x="646" y="285" fill="#f8fafc" font-size="15" font-weight="700">Verify</text><text x="646" y="310" fill="#cbd5e1" font-size="13">Assertions · fixtures</text><text x="646" y="330" fill="#cbd5e1" font-size="13">test organization</text>
+    <circle cx="814" cy="225" r="28" fill="#0f766e" stroke="#5eead4" stroke-width="2"/><text x="814" y="231" fill="#f8fafc" font-size="17" font-weight="700">5</text>
+    <text x="814" y="285" fill="#f8fafc" font-size="15" font-weight="700">Deliver</text><text x="814" y="310" fill="#cbd5e1" font-size="13">Reports · CI</text><text x="814" y="330" fill="#cbd5e1" font-size="13">cross-browser runs</text>
+  </g>
+  <rect x="118" y="393" width="724" height="54" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="480" y="427" text-anchor="middle" fill="#ccfbf1" font-family="Segoe UI,Arial,sans-serif" font-size="15">Learn one step at a time · add tests to a real application · review traces and reports</text>
+</svg>

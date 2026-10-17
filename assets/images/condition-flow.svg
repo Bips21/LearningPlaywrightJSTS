@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript condition flow</title>
+  <desc id="desc">A condition branches to a true or false path, runs the matching block, and rejoins the program flow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b35"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#94a3b8"/></marker>
+  </defs>
+  <rect width="960" height="460" rx="28" fill="url(#bg)"/>
+  <text x="56" y="66" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Conditions choose a path</text>
+  <text x="56" y="96" fill="#a5b4fc" font-family="Segoe UI,Arial,sans-serif" font-size="15">Evaluate once, run the matching branch, then continue.</text>
+  <rect x="394" y="126" width="172" height="56" rx="14" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+  <text x="480" y="161" text-anchor="middle" fill="#f8fafc" font-family="Consolas,monospace" font-size="20">if (condition)</text>
+  <path d="M480 183V219M480 219H250V246M480 219H710V246" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="337" y="210" fill="#5eead4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">TRUE</text>
+  <text x="610" y="210" fill="#fda4af" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">FALSE</text>
+  <rect x="142" y="258" width="216" height="70" rx="16" fill="#115e59" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="250" y="286" text-anchor="middle" fill="#99f6e4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">IF BLOCK</text>
+  <text x="250" y="310" text-anchor="middle" fill="#f8fafc" font-family="Consolas,monospace" font-size="16">run this code</text>
+  <rect x="602" y="258" width="216" height="70" rx="16" fill="#881337" stroke="#fb7185" stroke-width="2"/>
+  <text x="710" y="286" text-anchor="middle" fill="#fecdd3" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">ELSE BLOCK</text>
+  <text x="710" y="310" text-anchor="middle" fill="#f8fafc" font-family="Consolas,monospace" font-size="16">run this instead</text>
+  <path d="M250 329V370H480M710 329V370H480V389" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="394" y="394" width="172" height="46" rx="14" fill="#334155"/>
+  <text x="480" y="423" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="17">continue program</text>
+</svg>

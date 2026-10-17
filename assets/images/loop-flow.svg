@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript loop flow</title>
+  <desc id="desc">Initialize a counter, check the loop condition, run the body and update the counter until the condition is false.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b35"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#94a3b8"/></marker>
+  </defs>
+  <rect width="960" height="500" rx="28" fill="url(#bg)"/>
+  <text x="56" y="66" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">A loop repeats while its condition is true</text>
+  <rect x="356" y="101" width="248" height="58" rx="15" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+  <text x="480" y="137" text-anchor="middle" fill="#f8fafc" font-family="Consolas,monospace" font-size="18">initialize counter</text>
+  <path d="M480 160V190" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M480 196L595 250L480 304L365 250Z" fill="#312e81" stroke="#a78bfa" stroke-width="2"/>
+  <text x="480" y="246" text-anchor="middle" fill="#f8fafc" font-family="Consolas,monospace" font-size="17">condition</text>
+  <text x="480" y="269" text-anchor="middle" fill="#c4b5fd" font-family="Consolas,monospace" font-size="14">still true?</text>
+  <path d="M365 250H258V307" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="299" y="239" fill="#5eead4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">YES</text>
+  <rect x="146" y="318" width="224" height="64" rx="15" fill="#115e59" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="258" y="358" text-anchor="middle" fill="#f8fafc" font-family="Consolas,monospace" font-size="17">run loop body</text>
+  <path d="M258 383V424H480V309" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="282" y="414" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">update counter, then check again</text>
+  <path d="M595 250H730V318" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="644" y="239" fill="#fda4af" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">NO</text>
+  <rect x="622" y="329" width="216" height="60" rx="15" fill="#334155" stroke="#64748b"/>
+  <text x="730" y="367" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="17">exit the loop</text>
+  <text x="56" y="465" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="14">for · while check first; do...while runs the body before its first check.</text>
+</svg>
